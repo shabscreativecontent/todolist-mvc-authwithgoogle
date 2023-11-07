@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const UserSchema = new mongoose.Schema({
-  microsoftId: {
+  googleId: {
     type: String,
     required: true,
   },

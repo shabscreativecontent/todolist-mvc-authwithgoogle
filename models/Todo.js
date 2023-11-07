@@ -9,7 +9,7 @@ const TodoSchema = new mongoose.Schema({
     type: Boolean,
     required: true,
   },
-  microsoftId: {
+  googleId: {
     type: String,
     required: true
   }
